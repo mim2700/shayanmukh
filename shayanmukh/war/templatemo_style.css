@@ -19,7 +19,7 @@ ul, li {
 
 h1, h2, h3, h4, h5, h6 { color: #fff; font-weight: normal; }
 h1 { font-size: 58px; margin: 0 0 30px; padding: 5px 0 }
-h2 { font-size: 34px; margin: 0 0 30px; padding: 5px 0 }
+h2 { font-size: 34px; margin: 0 0 30px; padding: 2px 0 }
 h3 { font-size: 20px; margin: 0 0 20px; padding: 0; }
 h4 { font-size: 16px; margin: 0 0 15px; padding: 0; }
 h5 { font-size: 14px; margin: 0 0 10px; padding: 0;  }
@@ -111,7 +111,7 @@ img { margin: 0; padding: 0; border: none }
 .color2 { background: #c75000 }
 .color3 { background: #00afce }
 .color4 { background: #a4c700 }
-#home_gallery a { display: block; float: left; width: 152px; height: 152px; margin: 0 10px 10px 0 }
+#home_gallery a { display: block; float: left; width: 140px; height: 152px; margin: 0 10px 10px 0 }
 #home_gallery a.no_mr { margin-right: 0 }
 
 #social_links {
