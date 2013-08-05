@@ -25,7 +25,7 @@
 	    top: 3em;
 	    left: 0;
 	    background-color: rgba(0, 0, 0, 0.5);
-	    font: bold 18px/35px Helvetica, Sans-Serif;
+	    font: bold 16px/33px Helvetica, Sans-Serif;
 	    color: orange;
 	}
 </style>
@@ -36,10 +36,11 @@
 </head>
 
 <body bgcolor="#000 ">
+<img src='<spring:message code="prop.img.home.button"/>'/>
 <table>
 	<tr>
 		<td width="25%" valign="top">
-			<fieldset>
+			<fieldset style="border: none;">
 				<legend><h3><font color="orange"><spring:message code="prop.shayanmukh.image.birthday.my.text" /></font></h3></legend>
 				<table>
 					<tr>
