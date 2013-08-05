@@ -67,7 +67,7 @@ h2 {
 
 </style>
 <body>  
- Current Locale : ${pageContext.response.locale}
+<!--  Current Locale : ${pageContext.response.locale}  -->
  
 <div>
 	<spring:message code="prop.shayanmukh.language.change"/> : <a href="?language=en"><spring:message code="prop.shayanmukh.language.english"/></a> /<a href="?language=bn"><spring:message code="prop.shayanmukh.language.bengali"/></a>
