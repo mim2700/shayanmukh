@@ -47,4 +47,35 @@ public class ControllerMain
 	{
 		return "birthday";
 	}
+	@RequestMapping(value="/childhood", method=RequestMethod.GET)
+	public String childhood(Model model)
+	{
+		return "childhood";
+	}
+	
+	@RequestMapping(value="/moments", method=RequestMethod.GET)
+	public String moments()
+	{
+		return "moments";
+	}
+	
+	@RequestMapping(value="/schooling", method=RequestMethod.GET)
+	public String schooling()
+	{
+		return "schooling";
+	}
+
+	@RequestMapping(value="/activity", method=RequestMethod.GET)
+	public String activity()
+	{
+		return "activity";
+	}
+	@RequestMapping(value="/achivement", method=RequestMethod.GET)
+	public String achivement()
+	{
+		return "achivement";
+	}
+	
+
+	
 }

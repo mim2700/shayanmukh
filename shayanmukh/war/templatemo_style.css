@@ -67,7 +67,7 @@ img { margin: 0; padding: 0; border: none }
 
 #templatemo_main {
 	width: 800px;
-	height: 487px;
+	height: 325px;
 	overflow: hidden;
 	margin: 0 auto;
 }
@@ -86,14 +86,14 @@ img { margin: 0; padding: 0; border: none }
 	overflow:hidden;
 	width: 7000px;
 	position:relative;
-	height: 487px;
+	height: 325px;
 }
 
 .section {
 	position:relative;
 	float:left;
 	width: 800px;
-	height: 487px;
+	height: 325px;
 	margin-right: 20px;
 }
 
@@ -105,6 +105,7 @@ img { margin: 0; padding: 0; border: none }
 .box { float: left; margin: 0 10px 10px 0 }
 #home_about { width: 314px; height: 314px }
 #home_gallery { width: 476px; height: 314px }
+#home_gallery2 { width: 950px; height: 314px }
 .home_box1 { width: 152px; height: 152px }
 .home_box2 { width: 314px; height: 152px }
 .color1 { background: #d0b500 }
@@ -113,6 +114,7 @@ img { margin: 0; padding: 0; border: none }
 .color4 { background: #a4c700 }
 #home_gallery a { display: block; float: left; width: 140px; height: 152px; margin: 0 10px 10px 0 }
 #home_gallery a.no_mr { margin-right: 0 }
+#kid_img {float: left}
 
 #social_links {
 	text-align: center;

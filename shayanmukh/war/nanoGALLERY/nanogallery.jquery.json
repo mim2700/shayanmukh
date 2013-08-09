@@ -1,0 +1,46 @@
+{
+	"name": "nanogallery",
+	"title": "jQuery nanoGALLERY",
+	"description": "Simplistic to use image gallery plugin for jQuery, with support for pulling in Flickr and Picasa/Google+ photo albums among others. 30 animated thumbnails hover effects (combinable). Mobile-friendly and responsive. Smooth in/out transitions. Breadcrumb for multi-level navigation. Images are shown as clickable thumbnails, which will expand to full view via a modal popup window. Support custom themes.",
+	"keywords": [
+		"image",
+		"gallery",
+		"portfolio",
+		"photo",
+		"photoset",
+		"slideshow",
+		"flickr",
+		"googleplus",
+		"picasa",
+		"effects",
+		"responsive"
+	],
+	"version": "4.0.3",
+	"author": {
+		"name": "Kris_B",
+		"url": "http://www.brisbois.fr"
+	},
+	"maintainers": [
+		{
+			"name": "Kris_B",
+			"email": "chr@brisbois.fr",
+			"url": "http://www.brisbois.fr"
+		}
+	],
+	"licenses": [
+		{
+			"type": "CC BY-NC 3.0",
+			"url": "http://creativecommons.org/licenses/by-nc/3.0/"
+		}
+	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/Kris-B/nanoGALLERY.git"
+	},
+	"bugs": "https://github.com/Kris-B/nanoGALLERY/issues",
+	"homepage": "http://www.nanogallery.brisbois.fr",
+	"demo": "http://www.nanogallery.brisbois.fr",
+	"dependencies": {
+		"jquery": ">=1.7"
+	}
+}

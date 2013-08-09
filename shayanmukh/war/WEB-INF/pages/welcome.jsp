@@ -10,14 +10,63 @@
 <meta name="keywords" content="metro, free website template, beautiful grid, image grid menu, colorful theme" />
 <meta name="description" content="Metro is a free website template by templatemo.com and it features jQuery horizontal scrolling among pages." />
 
+<!--  nano gallery -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+	<script type="text/javascript" src="nanoGALLERY/third.party/jquery-jsonp/jquery.jsonp.js"></script> 
+	<script type="text/javascript" src="nanoGALLERY/third.party/transit/jquery.transit.min.js"></script>
+
+	<!-- Fancybox - Optionnal -->
+	<link href="nanoGALLERY/third.party/fancybox/jquery.fancybox.css?v=2.1.4" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="nanoGALLERY/third.party/fancybox/jquery.fancybox.pack.js?v=2.1.4"></script> 
+	<link href="nanoGALLERY/third.party/fancybox/helpers/jquery.fancybox-buttons.css?v=1.0.5" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="nanoGALLERY/third.party/fancybox/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script> 
+	<script type="text/javascript" src="nanoGALLERY/third.party/fancybox/helpers/jquery.fancybox-media.js?v=1.0.5"></script> 
+	<!-- Fancybox -->
+
+	<!-- nanoGALLERY - default css file -->
+	<link href="nanoGALLERY/css/nanogallery.css" rel="stylesheet" type="text/css">
+	<!-- nanoGALLERY - css file for the theme 'clean' -->
+	<link href="nanoGALLERY/css/themes/clean/nanogallery_clean.css" rel="stylesheet" type="text/css">
+	<!-- nanoGALLERY js -->
+	<script type="text/javascript" src="nanoGALLERY/jquery.nanogallery.js"></script> 
+	
+
+<!--  nano gallery -->
+
+
+
 	<link href="templatemo_style.css" type="text/css" rel="stylesheet" /> 
-	<script type="text/javascript" src="js/jquery.min.js"></script> 
+
+
+<!-- 	<script type="text/javascript" src="js/jquery.min.js"></script>  -->
 	<script type="text/javascript" src="js/jquery.scrollTo-min.js"></script> 
 	<script type="text/javascript" src="js/jquery.localscroll-min.js"></script> 
 	<script type="text/javascript" src="js/init.js"></script> 
     
+   
     <link rel="stylesheet" href="css/slimbox2.css" type="text/css" media="screen" /> 
     <script type="text/JavaScript" src="js/slimbox2.js"></script> 
+
+    <script type="text/javascript" src="js/galleria/galleria-1.2.9.min.js"></script>
+	<script type="text/javascript" src="js/galleria/galleria.picasa.min.js"></script>
+
+	
+
+
+	     <script type="text/javascript">
+	     $(document).ready(function () {
+	    	    jQuery("#nanoGallery").nanoGallery({
+	    	        kind: 'picasa',
+	    	        userID: 'shayan.mukh',
+	    			album: 'recent',		//remove this line to display all the albums
+	    	        thumbnailWidth: 144,
+	    	        thumbnailHeight: 144,
+	    	        thumbnailHoverEffect:'borderLighter'
+	    	    });
+	    	    
+	    	});
+        </script>
 
 </head> 
 <style>
@@ -94,169 +143,58 @@ h2 {
                 	
 
 
-               		<a class="block" href="images/gallery/02-l.jpg" rel="lightbox[gallery]">
+               		<a class="block" href="/childhood" >
                			<img src='<spring:message code="prop.img.welcome.picasa.childhood"/>' alt="childhood" />
                			<h2><spring:message code="prop.shayanmukh.image.childhood.text"/></h2>
                		</a>
 
 
-               		<a class="block" href="images/gallery/03-l.jpg" rel="lightbox[gallery]" class="no_mr">
+               		<a class="block" href="/moments">
                			<img src='<spring:message code="prop.img.welcome.picasa.moments"/>' alt="image 3" />
                			<h2><spring:message code="prop.shayanmukh.image.moments.text"/></h2>
                			
                		</a>
 
-               		<a class="block" href="images/gallery/04-l.jpg" rel="lightbox[gallery]">
+               		<a class="block" href="/schooling">
                			<img src='<spring:message code="prop.img.welcome.picasa.school"/>' alt="image 4" />
                			<h2><spring:message code="prop.shayanmukh.image.school.text"/></h2>
                		</a>
 
-               		<a class="block" href="images/gallery/05-l.jpg" rel="lightbox[gallery]">
+               		<a class="block" href="/activity">
                			<img src='<spring:message code="prop.img.welcome.picasa.activity"/>' alt="image 5" />
                			<h2><spring:message code="prop.shayanmukh.image.activity.text"/></h2>
                		</a>
 
-               		<a class="block" href="images/gallery/06-l.jpg" rel="lightbox[gallery]" class="no_mr"><img src="images/gallery/06.jpg" alt="image 6" /></a>
-
+					<a class="block" href="/achievement">
+               			<img src='<spring:message code="prop.img.welcome.picasa.activity"/>' alt="image 6" />
+               			<h2><spring:message code="prop.shayanmukh.image.achivement.text"/></h2>
+               		</a>
             </div>
-            
-            <div class="box home_box1 color1">
-            	<a href="#services"><img src="images/templatemo_services.jpg" alt="Services" /></a>
-            </div>
-            
-            <div class="box home_box1 color2">
-	            <a href="#testimonial"><img src="images/testimonial.jpg" alt="Testimonial" /></a>
-            </div>
-            
-            <div class="box home_box2 color3">
-            	<div id="social_links">
-                    <a href="https://www.facebook.com/templatemo"><img src="images/facebook.png" alt="Facebook" /></a>
-                    <a href="#"><img src="images/flickr.png" alt="Flickr" /></a>
-                    <a href="https://www.facebook.com/templatemo"><img src="images/twitter.png" alt="Twitter" /></a>
-                    <a href="#"><img src="images/youtube.png" alt="Youtube" /></a>
-                    <a href="https://www.facebook.com/templatemo"><img src="images/vimeo.png" alt="Vimeo" /></a>
-              <div class="clear h20"></div>
-                    <h3>Social</h3>
-              </div>	
-            </div>
-            
-            <div class="box home_box1 color4 no_mr">
-            	<a href="#contact"><img src="images/contact.jpg" alt="Contact" /></a>
-            </div>
-               
         </div> <!-- END of home -->
-        
-        <div class="section section_with_padding" id="services"> 
-            <h2>Services</h2>
-            <div class="img_border img_fl">
-                <img src="images/templatemo_image_03.jpg" alt="image" />	
-            </div>
-            <div class="half right">
-                <ul class="list_bullet">
-                    <li>Maecenas ac odio ipsum donec cursus</li>
-                    <li>Fusce risus tortor, interdum</li>
-                    <li>Proin facilisis ullamcorper</li>
-                    <li>Sed vel justo quis ligula</li>
-                    <li>Ut tristique sagittis arcu</li>
-                    <li>Maecenas ac odio ipsum donec cursus</li>
-                    <li>Fusce risus tortor, interdum</li>
-                 </ul>
-            </div>
-            <div class="clear h40"></div>
-            <div class="img_border img_fr">
-                <img src="images/templatemo_image_04.jpg" alt="image" />	
-            </div>
-			<div class="half left">                
-            	<p><em>Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam mauris ipsum, pulvinar sit amet varius at, placerat ut felis.</em></p>
-            	<p>Donec vitae tortor non ipsum tristique condimentum ac ac nulla. Etiam sagittis iaculis dolor ut euismod. Nam faucibus, risus at consequat malesuada, urna turpis sagittis libero, sodales hendrerit dui arcu et nisi. Praesent pulvinar, dolor id lacinia pulvinar, mi ligula tempor libero, et semper sem dolor et elit. </p>
-            </div>
 
-            <a href="#home" class="slider_nav_btn home_btn">home</a> 
-            <a href="#home" class="slider_nav_btn previous_btn">Previous</a>
-            <a href="#testimonial" class="slider_nav_btn next_btn">Next</a> 
+</div>
 
-        </div> 
-        <div class="section section_with_padding" id="testimonial"> 
-            <h2>Testimonial</h2>
-            <p><em>Aliquam venenatis, quam a semper blandit, lectus mi convallis orci, ut dictum ante leo non leo. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris placerat, urna in gravida rhoncus, mi elit luctus nibh, a luctus erat elit vel quam. </em></p>
-            <div class="clear h40"></div>
-            <div class="half left">
-            	<div class="img_border img_fl">
-                	<img src="images/templatemo_image_01.jpg" alt="image 1" />
-                </div>
-                <p>Fusce nec felis id lacus sollicitudin vulputate. Proin tincidunt, arcu id pellentesque accumsan, neque dolor imperdiet ligula. </p>
-                <cite>Walker - <span>TemplateMo.com</span></cite>
-			</div>
-            <div class="half right">
-                <div class="img_border img_fl">
-                	<img src="images/templatemo_image_01.jpg" alt="image 2" />
-                </div>
-                <p>Fusce nec felis id lacus sollicitudin vulputate. Proin tincidunt, arcu id pellentesque accumsan, neque dolor imperdiet ligula. </p>
-                <cite>Jason - <span>TemplateMo.com</span></cite>
-			</div>
-            <div class="clear h40"></div>
-            <div class="half left">
-            	<div class="img_border img_fl">
-                	<img src="images/templatemo_image_01.jpg" alt="image 3" />
-                </div>
-                <p>Fusce nec felis id lacus sollicitudin vulputate. Proin tincidunt, arcu id pellentesque accumsan, neque dolor imperdiet ligula. </p>
-                <cite>Danny - <span>FlashMo.com</span></cite>
-			</div>
-            <div class="half right">
-                <div class="img_border img_fl">
-                	<img src="images/templatemo_image_01.jpg" alt="image 4" />
-                </div>
-                <p>Fusce nec felis id lacus sollicitudin vulputate. Proin tincidunt, arcu id pellentesque accumsan, neque dolor imperdiet ligula. </p>
-                <cite>Katey - <span>KoFlash.com</span></cite> 
-			</div>
-                    
-            <a href="#home" class="slider_nav_btn home_btn">home</a> 
-            <a href="#services" class="slider_nav_btn previous_btn">Previous</a>
-            <a href="#contact" class="slider_nav_btn next_btn">Next</a> 
-        </div> 
-        <div class="section section_with_padding" id="contact"> 
-            <h2>Contact</h2> 
-            <div class="half left">
-                <h4>Quick Contact Form</h4>
-                <p>Nullam a tortor est, congue fermentum nisi. Maecenas nulla nulla, eu volutpat euismod, scelerisque ut dui.</p>
-                <div id="contact_form">
-                    <form method="post" name="contact" action="#contact">
-                        <div class="left">
-                            <label for="author">Name:</label> <input name="author" type="text" class="input_field" id="author" maxlength="40" />
-                        </div>
-                        <div class="right">                           
-                            <label for="email">Email:</label> <input name="email" type="text" class="input_field" id="email" maxlength="40" />
-                        </div>
-                        <div class="clear"></div>
-                        <label for="text">Message:</label> <textarea id="text" name="text" rows="0" cols="0"></textarea>
-                        <input type="submit" class="submit_btn float_l" name="submit" id="submit" value="Send" />
-                    </form>
-                </div>
-            </div>
-            
-            <div class="half right">
-                <h4>Mailing Address</h4>
-                460-820 Duis lacinia dictum, <br />
-                Vestibulum auctor, 12650<br />
-                Nam rhoncus, diam a mollis<br />
-          		<strong>Email: info[ at ]companyname[ dot ]com</strong><br />
-                
-                <div class="clear h20"></div>
-                <div class="img_nom img_border"><span></span>
-                
-                <iframe width="320" height="240" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Central+Park,+New+York,+NY,+USA&amp;aq=0&amp;sll=14.093957,1.318359&amp;sspn=69.699334,135.263672&amp;vpsrc=6&amp;ie=UTF8&amp;hq=Central+Park,+New+York,+NY,+USA&amp;ll=40.778265,-73.96988&amp;spn=0.033797,0.06403&amp;t=m&amp;output=embed"></iframe>
-                
-            </div>
-			<a href="#home" class="slider_nav_btn home_btn">home</a> 
-            <a href="#testimonial" class="slider_nav_btn previous_btn">Previous</a>
-             
-        </div> 
-    </div> 
+
 </div>
+
+     <div id="home_gallery2" class="box no_mr" style="float:none;">
+       <div style="float: left;">
+       			<a class="block box no_mr" >
+               			<img src='<spring:message code="prop.img.recent"/>' alt="image 7" />
+               			<h2><spring:message code="prop.shayanmukh.image.recent.text"/></h2>
+               	</a>
+        </div>
+         <div id="nanoGallery" ></div>
+    </div>
+
+
+<div id="templatemo_footer" style="float:none;">
+<p>
+<br>
+    Copyright Â© 2013 <a href="#">Nishayani</a>
+</p> 
 </div>
-<div id="templatemo_footer">
-    Copyright Â© 2072 <a href="#">Your Company Name</a> | Designed by <a href="http://www.templatemo.com" target="_parent">Free CSS Templates</a>
-</div>
+
 
 </body> 
 </html>
